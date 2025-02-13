@@ -7,16 +7,11 @@ public class DTB {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner nhap = new Scanner(System.in);
-		System.out.print("Nhập vào tên sinh viên (vd: Nguyen Van A): ");
-		String tenSV = nhap.nextLine();
-		System.out.print("Nhập vào điểm trung bình (vd: 9,8): ");
+		System.out.print("Họ và tên: "); 
+		String hoTen = nhap.nextLine(); 
+		System.out.print("Điểm TB: "); 
 		double diemTB = nhap.nextDouble();
-		
-		nhap.nextLine(); // FIX LỖI: Đọc dòng trống sau nextFloat()
-		
-		System.out.println("Họ và tên: " + tenSV +"\nĐiểm trung bình: " + diemTB);
-
-		nhap.close(); // Đóng Scanner để tránh rò rỉ tài nguyên
+		System.out.printf("%s - %.2f điểm", hoTen, diemTB); 
+		nhap.close();
 	}
-
 }
