@@ -6,6 +6,11 @@ public class bai_3 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		TinhTienDien();
+	}
+	
+	public static void TinhTienDien() {
+		// TODO Auto-generated method stub
 		Scanner nhap = new Scanner(System.in);
 		double soDien;
 		
@@ -38,7 +43,6 @@ public class bai_3 {
     		}
 		
 		
-		nhap.close();
 
 	}
 

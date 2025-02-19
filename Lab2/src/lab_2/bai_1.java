@@ -2,8 +2,13 @@ package lab_2;
 import java.util.Scanner;
 
 public class bai_1 {
-
+	
 	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		GiaiPTBac1();
+	}
+
+	public static void GiaiPTBac1() {
 		// TODO Auto-generated method stub
 		Scanner nhap = new Scanner(System.in);
 		
@@ -29,5 +34,6 @@ public class bai_1 {
 			System.out.printf("Phương trình có nghiệm x = %.2f", -b/a );
 		}
 	}
-
+	
+	
 }

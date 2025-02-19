@@ -6,6 +6,12 @@ public class bai_2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		GiaiPTBac2();
+		
+	}
+	
+	public static void GiaiPTBac2() {
+		// TODO Auto-generated method stub
 		Scanner nhap = new Scanner(System.in);
 		
 		System.out.print("Nhập vào a : ");
@@ -33,7 +39,6 @@ public class bai_2 {
 		}
 			
 		
-		nhap.close();
 	}
 
 }
